@@ -4,7 +4,7 @@ import openai
 # 
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
-openai_client = openai.OpenAI(api_key=OPENAI_API_KEY)  # 🔹 Create OpenAI client
+openai_client = openai.Client(api_key=OPENAI_API_KEY)
 
 st.title(" AI Mental Health Counselor")
 st.write("Enter problem, and I will generate guidance :) ")
