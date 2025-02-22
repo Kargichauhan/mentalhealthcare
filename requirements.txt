@@ -2,8 +2,5 @@ flask
 flask-cors
 torch
 transformers
-<<<<<<< HEAD
 openai==1.11.0
-=======
-openai
->>>>>>> e93afc1 (deploy)
+
