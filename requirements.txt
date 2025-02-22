@@ -2,5 +2,5 @@ flask
 flask-cors
 torch
 transformers
-openai==1.11.0
+openai==0.28.0
 
